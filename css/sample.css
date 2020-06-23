@@ -1,0 +1,65 @@
+/* @import 'css/buttons.css' */
+* {
+    box-sizing: border-box; /* применить ко всему */
+}
+body {
+    background: mediumturquoise;
+}
+
+h2 {
+    color: red;
+    font-size: 20px;
+}
+h3 {
+    color: yellow;
+    font-size: 10px;
+}
+
+.liBold {
+    color: greenyellow;
+    text-align:left;
+    font-weight: bold;
+    font-style: italic;
+}
+.box {
+/*     box-sizing: border-box; */
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    padding: 20px 50px;
+    /*border-width: 3px;
+    border-style: solid;
+    border-color: grey;*/
+    border: 3px dashed red;
+    margin: 20px;
+}
+/*  блочные
+    строчные
+    строчно-блочные*/
+
+a {
+    padding: 50px;    
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+
+nav {
+    /* position: relative; */
+    /* position: absolute; */
+    position: fixed;
+    top: 10px;
+    left: 0px;
+    /* left: 130px; */
+    /* top: 10px; */
+}
+.example {
+    position: relative;
+    border: 3px dashed red;
+    height: 100px;
+    background-color:cornsilk;    
+}

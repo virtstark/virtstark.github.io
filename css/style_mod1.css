@@ -1,0 +1,58 @@
+/* @import 'css/buttons.css' */
+* {
+    box-sizing: border-box; /* применить ко всему */
+    margin: 0;
+    padding: 0;
+}
+/* body {
+    background: mediumturquoise;
+}
+ */
+.head {
+    display: inline-block;
+    width: 1140px;
+    height: 300px;
+    background-color: green;
+    margin: 20px;
+    padding: 20px 50px;
+    border: 3px dashed red;
+}
+
+.head_center {
+    margin 0 auto;
+    background-color: sandybrown;
+}
+
+.btn {
+    display: block;
+    margin: 20px auto;
+    width: 500px;
+    height: 70px;
+    box-shadow: insert 0 0px 0 rgba(0,0,0,0.18);
+    border: 4px solid rgba(0,0,0,0.23);
+    background-image: linear-gradient(to top, #2708b9 0%, #3ab6da 100%);
+    color: #ffffff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.middle {
+    min-height: 300px;
+    background-color: wheat;
+    padding: 85px,75px,75px,75px;
+}
+.middle .pic_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.middle .pic_wrapper .pic_item {
+    width: 200px;
+}
+
+.middle .pic_wrapper .pic_item .witing_img {
+    width: 100%;
+}
+
+
